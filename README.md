@@ -19,7 +19,7 @@ Users can browse restaurants, explore menus, add items to cart, place orders, an
 ---
 
 ## 🛠️ Tech Stack
-- **Frontend:** React, TailwindCSS  
+- **Frontend:** React  
 - **Backend:** Node.js, Express.js  
 - **Database:** MongoDB  
 - **Auth:** JWT + bcrypt  
