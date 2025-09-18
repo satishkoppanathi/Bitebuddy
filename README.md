@@ -40,7 +40,7 @@ You can use the following **Stripe test card** to simulate a payment:
 - **:** Any future date (e.g., 12/34)  
 - **CVC:** Any 3 digits (e.g., 123)  
 
-### Special Test Cases
+### Special Test Cases - For Sample Fake Payment
 
 | Scenario                    | Card Number                   |
 |-----------------------------|-------------------------------|
