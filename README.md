@@ -27,41 +27,26 @@ Users can browse restaurants, explore menus, add items to cart, place orders, an
 - **Deployment:** Vercel,Render 
 
 ---
+# Stripe Payment Integration Demo
 
-## ⚡ Getting Started
+This is a demo project showcasing **Stripe payments** using React (or any frontend) and Stripe API.  
+All payments are in **test mode** using Stripe test cards — **no real money is used**.
 
-### 1. Clone the repo
-\`\`\`bash
-git clone https://github.com/satishkoppanathi/QuickAI.git
-cd QuickAI
-\`\`\`
+## Test Card Details
 
-### 2. Install dependencies
-\`\`\`bash
-cd client && npm install
-cd ../server && npm install
-\`\`\`
+You can use the following **Stripe test card** to simulate a payment:
 
-### 3. Setup Environment Variables
-Create \`.env\` in `/server`:
-\`\`\`
-MONGO_URI=your_mongodb_connection
-JWT_SECRET=your_secret
-STRIPE_SECRET_KEY=your_stripe_secret_key
-\`\`\`
+- **Card Number:** 4242 4242 4242 4242  
+- **:** Any future date (e.g., 12/34)  
+- **CVC:** Any 3 digits (e.g., 123)  
 
-Create \`.env` in `/client`:
-\`\`\`
-REACT_APP_STRIPE_PUBLIC_KEY=your_stripe_publishable_key
-\`\`\`
+### Special Test Cases
 
-### 4. Run the app locally
-Backend:
-\`\`\`bash
-cd server && npm start
-\`\`\`
+| Scenario                    | Card Number                   |
+|-----------------------------|-------------------------------|
+| Successful payment          | 4242 4242 4242 4242           |
+| Expiry                      | Any future date (e.g., 12/34) |
+| CVC                         | Any 3 digits (e.g., 123)      |
+> All cards are from [Stripe Docs](https://stripe.com/docs/testing) and **safe to use in test mode**.
 
-Frontend:
-\`\`\`bash
-cd client && npm start
-\`\`\`
+
