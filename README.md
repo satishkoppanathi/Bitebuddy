@@ -3,24 +3,15 @@ cat << 'EOF' > README.md
 
 **BiteBuddy** is a modern **MERN (MongoDB, Express, React, Node.js)** food delivery platform with **Stripe integration** for secure payments.  
 Users can browse restaurants, explore menus, add items to cart, place orders, and pay seamlessly.
-## 🌍 Deployment
-
-### 🔹 Frontend (React) → Vercel
-- Push code to GitHub  
-- Import repo into [Vercel](https://vercel.com)  
-- Add `REACT_APP_STRIPE_PUBLIC_KEY` in Environment Variables  
-- Deploy with **1-click**  
-
-### 🔹 Backend (Node/Express) → Render
-- Go to [Render](https://render.com)  
-- Create **Web Service** → Connect your repo  
-- Add environment variables (`MONGO_URI`, `JWT_SECRET`, `STRIPE_SECRET_KEY`)  
-- Deploy and get backend API live URL  
-
----
-
+## 🌍 Deployment 
 ## 🔗 Live Demo
-👉 [BiteBuddy Live App](https://your-live-link.vercel.app)  
+👉 [BiteBuddy Live App](food-delivery-platform-silk.vercel.app) 
+
+### 🔹 Frontend : food-delivery-platform-silk.vercel.app
+### 🔹 Admin Page : food-delivery-platform-admin.vercel.app
+### 🔹 Backend : https://food-delivery-platform-1-gc9e.onrender.com
+
+ 
 
 ---
 ---
